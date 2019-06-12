@@ -4,6 +4,10 @@ An asyncronous, in memory, software level register.
 
 # Usage
 
+```toml
+orandja_register = { git = "https://github.com/Orandja/register" }
+```
+
 ```rust
 //create a register of max 5 strings
 let reg = std::sync::Arc::new(Register::<String>::new(5));
